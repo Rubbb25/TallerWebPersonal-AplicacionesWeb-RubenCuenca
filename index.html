@@ -4,84 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil Profesional - Ruben Cuenca</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
 
-    <h1>Ruben Cuenca</h1>
-    <p>Estudiante de Ingenieria de Software de la Escuela Politecnica Nacional</p>
-    <img src="img/RubenCuenca.jpg" alt="Foto de Ruben Cuenca" width="200"/>
+    <div class="seccion encabezado">
+        <h1>Ruben Cuenca</h1>
+        <p class="centrado">
+            Estudiante de Ingenieria de Software de la Escuela Politecnica Nacional
+        </p>
+        <img src="img/RubenCuenca.jpg" alt="Foto de Ruben Cuenca" class="foto-perfil">
+    </div>
 
-    <h1>Perfil Profesional</h1>
+    <div class="seccion">
+        <h1>Perfil Profesional</h1>
 
-    <h2>¿Quién soy yo?</h2>
-    <p>
-        Estudiante de Ingeniería de Software de sexto semestre, con conocimientos en instalación y configuración de
-        software, mantenimiento básico de equipos y soporte técnico. Me caracterizo por ser responsable, decidido, colaborador,
-        adaptable a nuevos entornos, optimista y eficiente. Busco aplicar mis conocimientos técnicos en entornos que me
-        permitan seguir creciendo como profesional y contribuir a mi experiencia a futuro.
-    </p>
+        <h2>¿Quién soy yo?</h2>
+        <p>
+            Estudiante de Ingeniería de Software de sexto semestre, con conocimientos en instalación y configuración de
+            software, mantenimiento básico de equipos y soporte técnico. Me caracterizo por ser responsable, decidido, colaborador,
+            adaptable a nuevos entornos, optimista y eficiente. Busco aplicar mis conocimientos técnicos en entornos que me
+            permitan seguir creciendo como profesional y contribuir a mi experiencia a futuro.
+        </p>
 
-    <h2>Experiencia Laboral</h2>
-    <p>
-        He trabajado en el desarrollo de aplicaciones académicas, incluyendo sistemas con bases de datos, 
-        interfaces gráficas y arquitectura en capas. También tengo experiencia en el uso de tecnologías 
-        como Java, SQLite y herramientas de desarrollo.
-    </p>
+        <h2>Experiencia Laboral</h2>
+        <p>
+            He trabajado en el desarrollo de aplicaciones académicas, incluyendo sistemas con bases de datos, 
+            interfaces gráficas y arquitectura en capas. También tengo experiencia en el uso de tecnologías 
+            como Java, SQLite y herramientas de desarrollo.
+        </p>
+    </div>
 
-    <h2>Portafolio</h2>
+    <div class="seccion">
+        <h2>Portafolio</h2>
 
-    <h3>Aplicacion de analisis de discursos y oratoria con IA, SpeakUp</h3>
-    <p>Esta aplicacion permite analizar en tiempo real aspectos de un discurso como la emocionalidad o
-       atingencia y retorna un feedback para mejorar la oratoria del usuario.
-    </p>
-    <img src="img/AplicacionSpeakUp.jpg" alt="Imagen SpeakUp" width="300">
+        <div class="portafolio">
 
-    <h3>Videojuego usando OpenGL: "Chuchaqui: Nunca vuelvo a tomar"</h3>
-    <p>Este videojuego es una aventura interactiva realizada en OpenGL como proyecto de Computación 
-       Gráfica
-    </p>
-    <img src="img/VideojuegoChuchaquiGame.jpg" alt="Imagen videojuego" width="500">
+            <div class="proyecto">
+                <h3>Aplicacion de analisis de discursos y oratoria con IA, SpeakUp</h3>
+                <p>
+                    Esta aplicacion permite analizar en tiempo real aspectos de un discurso como la emocionalidad o
+                    atingencia y retorna un feedback para mejorar la oratoria del usuario.
+                </p>
+                <img src="img/AplicacionSpeakUp.jpg" alt="Imagen SpeakUp">
+            </div>
 
-    <h3>Aplicación de manejo de Dark Kitchens</h3>
-    <p>Esta aplicación es un sistema de gestión para Dark Kitchens, que permite administrar pedidos, 
-       inventario de la cocina y operaciones de manera eficiente.
-    </p>
-    <img src="img/AplicacionGestionDarkKitchens.jpg" alt="Imagen dark kitchens" width="500">
+            <div class="proyecto">
+                <h3>Videojuego usando OpenGL: "Chuchaqui: Nunca vuelvo a tomar"</h3>
+                <p>
+                    Este videojuego es una aventura interactiva realizada en OpenGL como proyecto de Computación 
+                    Gráfica
+                </p>
+                <img src="img/VideojuegoChuchaquiGame.jpg" alt="Imagen videojuego">
+            </div>
 
-    <h3>Aplicación de Orden de Pedidos con Tablero Kanban</h3>
-    <p>Aplicación diseñada para gestionar órdenes de pedidos utilizando un tablero Kanban, facilitando la 
-       organización y seguimiento de las tareas en un entorno de cocina o restaurante.
-    </p>
-    <img src="img/AplicacionOrdenDePedidosKanban.jpg" alt="Imagen de Aplicacion de Orden de Pedidos con Tablero Kanban" width="500">
+            <div class="proyecto">
+                <h3>Aplicación de manejo de Dark Kitchens</h3>
+                <p>
+                    Esta aplicación es un sistema de gestión para Dark Kitchens, que permite administrar pedidos, 
+                    inventario de la cocina y operaciones de manera eficiente.
+                </p>
+                <img src="img/AplicacionGestionDarkKitchens.jpg" alt="Imagen dark kitchens">
+            </div>
 
-    <h3>Sistema de Gestion de Ayudantes de la FIS</h3>
-    <p>Programa desarrollado para gestionar la información de los ayudantes de la Facultad de Sistemas,
-       incluyendo roles para la jefatura y los docentes a cargo de proyectos.
-    </p>
-    <img src="img/SistemaGestionDeAyudantesFIS.jpg" alt="Imagen Sistema de Gestion de Ayudantes FIS" width="500">
+            <div class="proyecto">
+                <h3>Aplicación de Orden de Pedidos con Tablero Kanban</h3>
+                <p>
+                    Aplicación diseñada para gestionar órdenes de pedidos utilizando un tablero Kanban, facilitando la 
+                    organización y seguimiento de las tareas en un entorno de cocina o restaurante.
+                </p>
+                <img src="img/AplicacionOrdenDePedidosKanban.jpg" alt="Imagen de Aplicacion de Orden de Pedidos con Tablero Kanban">
+            </div>
 
-    <h2>Contáctame!</h2>
+            <div class="proyecto">
+                <h3>Sistema de Gestion de Ayudantes de la FIS</h3>
+                <p>
+                    Programa desarrollado para gestionar la información de los ayudantes de la Facultad de Sistemas,
+                    incluyendo roles para la jefatura y los docentes a cargo de proyectos.
+                </p>
+                <img src="img/SistemaGestionDeAyudantesFIS.jpg" alt="Imagen Sistema de Gestion de Ayudantes FIS">
+            </div>
 
-    <form>
+        </div>
+    </div>
 
-        <label>Nombre:</label><br>
-        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required><br>
+    <div class="seccion">
+        <h2>Contáctame!</h2>
 
-        <label>Correo:</label><br>
-        <input type="email" name="email" placeholder="example@gmail.com" required><br>
+        <form>
 
-        <label>Cédula:</label><br>
-        <input type="text" name="cedula" pattern="[0-9]{10}" required><br>
+            <label>Nombre:</label><br>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required><br>
 
-        <label>Número de teléfono:</label><br>
-        <input type="tel" name="telefono" pattern="[9876][0-9]{8}" required><br>
+            <label>Correo:</label><br>
+            <input type="email" name="email" placeholder="example@gmail.com" required><br>
 
-        <label>Dirección:</label><br>
-        <input type="text" name="direccion" required><br><br>
+            <label>Cédula:</label><br>
+            <input type="text" name="cedula" pattern="[0-9]{10}" required><br>
 
-        <input type="submit" value="Enviar">
+            <label>Número de teléfono:</label><br>
+            <input type="tel" name="telefono" pattern="[9876][0-9]{8}" required><br>
 
-    </form>
+            <label>Dirección:</label><br>
+            <input type="text" name="direccion" required><br><br>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
 
 </body>
 </html>
